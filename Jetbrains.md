@@ -4,7 +4,7 @@ Hotkeys for default keymap.
 
 ###### Surround with:
 
-    CTRL+SHIFT+T
+    CTRL+ALT+T
     
 ###### Suggestions:
 
