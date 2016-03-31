@@ -34,6 +34,6 @@ Hotkeys for default keymap.
 
     ALT+R, R / SHIFT+F6
 
-###### Select all same words / Multiline editing 
+###### Select all same words / Multiline editing: 
 
     CTRL+W, ALT+J
