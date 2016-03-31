@@ -32,4 +32,8 @@ Hotkeys for default keymap.
     
 ###### Rename:
 
-    ALT+R, R
+    ALT+R, R / SHIFT+F6
+
+###### Select all same words / Multiline editing 
+
+    CTRL+W, ALT+J
