@@ -37,3 +37,7 @@ Hotkeys for default keymap.
 ###### Select all same words / Multiline editing: 
 
     CTRL+W, ALT+J
+
+###### Rearrange code / Netbeans' SHIFT+ALT+F  
+
+    CTRL+A, ALT+C, UP, ENTER
