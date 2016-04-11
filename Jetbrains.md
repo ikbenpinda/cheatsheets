@@ -38,6 +38,10 @@ Hotkeys for default keymap.
 
     CTRL+W, ALT+J
 
-###### Rearrange code / Netbeans' SHIFT+ALT+F  
+###### Rearrange code / Netbeans' SHIFT+ALT+F:  
 
     CTRL+A, ALT+C, UP, ENTER
+
+###### Multiline commenting:  
+
+    CTRL(+SHIFT)+SLASH
