@@ -1,6 +1,6 @@
-#Cheatsheets // Jetbrains IDEs
+###Cheatsheets // Jetbrains IDEs
 
-Hotkeys for default keymap.
+####Hotkeys for default keymap.
 
 ###### Surround with:
 
@@ -34,7 +34,7 @@ Hotkeys for default keymap.
 
     ALT+R, R / SHIFT+F6
 
-###### Select all same words / Multiline editing: 
+###### Select all same words / Multiline editing:   
 
     CTRL+W, ALT+J
 
@@ -45,3 +45,13 @@ Hotkeys for default keymap.
 ###### Multiline commenting:  
 
     CTRL(+SHIFT)+SLASH
+
+#### Settings, plugins, misc.  
+
+######  Enable CamelCase editing:  
+
+Settings > Editor > General > Smart Keys > Use "CamelHumps" words
+
+######  Sublime-style code minimap:  
+
+Plugins > Browse Repositories >  "CodeGlance"
