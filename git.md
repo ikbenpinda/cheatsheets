@@ -49,3 +49,7 @@
 ###### go back in time:
   
     git reset HEAD [first 6 digits of commit]
+
+###### Push all local branches to remote:
+  
+    git push --all -u
