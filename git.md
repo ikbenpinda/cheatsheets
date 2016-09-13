@@ -37,7 +37,14 @@
     git stash
     git pull --rebase
     git stash pop
-    
+
+###### After committed work you want to save, but can't pull-rebase because of overwritten files(this will kill uncommitted changes):  
+
+    git add .
+    git stash  
+    git stash drop  
+    git pull --rebase
+
 ###### When you just want to fuck shit up:
   
     git push --force
