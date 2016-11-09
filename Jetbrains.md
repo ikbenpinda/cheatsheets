@@ -46,6 +46,10 @@
 
     CTRL(+SHIFT)+SLASH
 
+######  Jump to next error:  
+
+    F2
+
 #### Settings, plugins, misc.  
 
 ######  Enable CamelCase editing:  
@@ -55,7 +59,3 @@ Settings > Editor > General > Smart Keys > Use "CamelHumps" words
 ######  Sublime-style code minimap:  
 
 Plugins > Browse Repositories >  "CodeGlance"
-
-######  Jump to next error:  
-
-    F2
