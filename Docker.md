@@ -26,4 +26,4 @@
 
 ##### remove all exited containers  
 
-  docker ps -a | grep Exit | cut -d ' ' -f 1 | xargs sudo docker rm
+  docker ps -a | grep Exit | cut -d ' ' -f 1 | xargs docker rm
