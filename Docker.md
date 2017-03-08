@@ -1,5 +1,9 @@
 # Cheatsheets // Docker
 
+###### Enable docker [Arch Linux]
+  systemctl enable docker.service
+  systemctl start docker.service
+  
 ###### list images  
   
   docker images
