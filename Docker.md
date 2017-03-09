@@ -1,9 +1,20 @@
 # Cheatsheets // Docker
 
+### Typical setup
+
+- Download image
+- Run a container with exposed ports
+- Exit container
+- Continue by starting the exited container
+
 ###### Enable docker [Arch Linux]
   systemctl enable docker.service
   systemctl start docker.service
-  
+
+###### Download image
+
+  docker pull _IMAGENAME_
+
 ###### Expose ports between VM and host
 
   docker run -p _HOSTPORT_:_CONTAINERPORT_ _IMAGE_
