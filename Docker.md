@@ -4,6 +4,14 @@
   systemctl enable docker.service
   systemctl start docker.service
   
+###### Expose ports between VM and host
+
+  docker run -p _HOSTPORT_:_CONTAINERPORT_ _IMAGE_
+  
+###### Expose all ports of the container between the VM and the host
+
+  docker run -P _IMAGE_
+  
 ###### list images  
   
   docker images
@@ -14,19 +22,19 @@
 
 ###### run container from image  
   
-  docker run [IMAGE]
+  docker run _IMAGE_
   
 ###### stop container  
   
-  docker stop [CONTAINER_ID]
+  docker stop _CONTAINER_ID_
 
 ###### start exited container  
   
-  docker start [CONTAINER_ID]
+  docker start _CONTAINER_ID_
 
 ###### remove container  
   
-  docker rm [CONTAINER_ID]
+  docker rm _CONTAINER_ID_
 
 ##### remove all exited containers  
 
