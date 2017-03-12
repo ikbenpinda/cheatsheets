@@ -1,5 +1,11 @@
 #Cheatsheets // Maven
 
+###### Install dependencies
+Note: -U forces update.
+
+    mvn clean install -U
+
+
 ###### Force encoding [project>properties]
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
