@@ -59,3 +59,8 @@ Settings > Editor > General > Smart Keys > Use "CamelHumps" words
 ######  Sublime-style code minimap:  
 
 Plugins > Browse Repositories >  "CodeGlance"
+
+######  Switch the terminal to bash on Windows(requires git installation):  
+
+Settings > Terminal > Shell path: C:\Program Files\Git\bin\bash.exe
+* Default path on Windows 10. Alternatively, find it by entering "where git" in the default command prompt.
