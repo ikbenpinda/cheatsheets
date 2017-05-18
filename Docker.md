@@ -50,3 +50,9 @@
 ##### remove all exited containers  
 
   docker ps -a | grep Exit | cut -d ' ' -f 1 | xargs docker rm
+
+###### Reconnect to Docker  
+
+  docker-,achine env default  
+  _run the last line as mentioned. e.g:_  
+ eval $("C:\Program Files\Docker Toolbox\docker-machine.exe" env default)  
