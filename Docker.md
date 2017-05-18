@@ -56,3 +56,8 @@
   docker-machine env default  
   _run the last line as mentioned. e.g:_  
  eval $("C:\Program Files\Docker Toolbox\docker-machine.exe" env default)  
+ 
+ 
+##### List ip-address
+
+  docker-machine ls
