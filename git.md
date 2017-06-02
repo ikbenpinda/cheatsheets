@@ -53,6 +53,10 @@
   
     git add -f [file]
     
+###### Add all updated/modified files:
+  
+    git add -u
+        
 ###### go back in time:
   
     git reset HEAD [first 6 digits of commit]
