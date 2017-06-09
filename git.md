@@ -64,3 +64,7 @@
 ###### Push all local branches to remote:
   
     git push --all -u
+
+##### When you already added files to a remote repository but forgot to link your existing local one:  
+
+    git merge origin master --allow-unrelated-histories
