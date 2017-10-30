@@ -49,6 +49,10 @@
 ######  Jump to next error:  
 
     F2
+    
+###### Indent / De-indent
+
+    TAB, SHIFT+TAB
 
 #### Settings, plugins, misc.  
 
