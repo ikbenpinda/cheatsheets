@@ -1,6 +1,6 @@
 ###### Fixing 'mysql access denied for user 'root'@'localhost' (using password NO)'
 
-    mysql --username=root --password=password
+    mysql --user=root --password='password'
     
     shorthand:
     
