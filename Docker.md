@@ -61,3 +61,7 @@
 ##### List ip-address
 
   docker-machine ls
+
+###### Running commands on a container
+  
+  docker exec -it CONTAINER_NAME bash -l
