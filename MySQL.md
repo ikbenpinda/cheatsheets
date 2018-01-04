@@ -8,4 +8,4 @@
    
 ##### Overview of all users
 
-    select * from mysql.users;
+    select host, user, authentication_string from mysql.users;
