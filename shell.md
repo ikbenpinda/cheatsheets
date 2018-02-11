@@ -1,15 +1,17 @@
-####listing contents
-######windows  
+####listing contents  
+
+###### windows  
     dir   
     
-######linux/osx  
+###### linux/osx  
     ls -a   
     
-####finding file or program  
-######windows  
+#### finding file or program  
+
+###### windows  
     where [whatever]  
     
-######linux/osx  
+###### linux/osx   
     which [whatever]  
     
     whereis [whatever]  
