@@ -10,3 +10,15 @@ Ctrl & Home::
 		Send, {End}
 return
 ```
+
+###### AutoHotkey script for turning CTRL+SHIFT+ALT+LEFT/RIGHT/DOWN into media controls.
+
+```
+; AutoHotKey script for media controls using Ctrl(^)/Shift(+)/Alt(!) with the arrow keys.
+
+^!+Left::	Send, {Media_Prev}
+
+^!+Right::	Send, {Media_Next}
+
+^!+Down::	Send, {Media_Play_Pause}
+```
