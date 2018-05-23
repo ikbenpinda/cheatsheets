@@ -17,3 +17,8 @@ Window Management
 Lock screen
 
     WIN + L
+
+'Unmount' previously unlisted partitions (Spring Creators Update) 
+_note: /D switch only removes the partition letter making it invisible. Use /P for full unmount._
+
+    sudo Mountvol YOUR_PARTITION_LETTER: /D
