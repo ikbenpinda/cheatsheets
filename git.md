@@ -68,3 +68,8 @@
 ##### When you already added files to a remote repository but forgot to link your existing local one:  
 
     git merge origin master --allow-unrelated-histories
+
+##### Ignore files after adding them to your .gitignore.
+
+    git rm -r --cached .
+    git add .
