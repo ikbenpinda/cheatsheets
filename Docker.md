@@ -65,3 +65,22 @@
 ###### Running commands on a container
   
   docker exec -it CONTAINER_NAME bash -l
+  
+  
+## Using Docker Compose
+
+###### Using compose to create all containers
+
+  docker-compose up
+
+###### Using compose to stop all containers
+
+  docker-compose stop
+  
+###### Using compose restart all exited containers
+
+  docker-compose start
+  
+###### Checking status of composed containers
+
+  docker-compose ps
