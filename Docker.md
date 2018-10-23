@@ -84,3 +84,13 @@
 ###### Checking status of composed containers
 
   docker-compose ps
+  
+###### List images as used by compose
+
+  docker-compose images
+
+###### Get the ip-address and checking the port of a composed service
+
+  docker exec -it CONTAINER_NAME bash
+  ping SERVICE_NAME
+  curl -s SERVICE_NAME:PORT >/dev/null && echo Success. || echo Fail.
