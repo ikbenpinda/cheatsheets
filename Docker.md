@@ -7,90 +7,92 @@
 - Exit container
 - Continue by starting the exited container
 
-###### Enable docker [Arch Linux]
-  systemctl enable docker.service
-  systemctl start docker.service
+## Basics
+
+###### Enable docker [Linux]
+    systemctl enable docker.service
+    systemctl start docker.service
 
 ###### Download image
 
-  docker pull _IMAGENAME_
+    docker pull _IMAGENAME_
 
 ###### Expose ports between VM and host
 
-  docker run -p _HOSTPORT_:_CONTAINERPORT_ _IMAGE_
+    docker run -p _HOSTPORT_:_CONTAINERPORT_ _IMAGE_
   
 ###### Expose all ports of the container between the VM and the host
 
-  docker run -P _IMAGE_
+    docker run -P _IMAGE_
   
 ###### list images  
   
-  docker images
+    docker images
 
 ###### list containers  
   
-  docker ps -a
+    docker ps -a
 
 ###### run container from image  
   
-  docker run _IMAGE_
+    docker run _IMAGE_
   
 ###### stop container  
   
-  docker stop _CONTAINER_ID_
+    docker stop _CONTAINER_ID_
 
 ###### start exited container  
   
-  docker start _CONTAINER_ID_
+    docker start _CONTAINER_ID_
 
 ###### remove container  
   
-  docker rm _CONTAINER_ID_
+    docker rm _CONTAINER_ID_
+
+## Shortcuts and troubleshooting
 
 ##### remove all exited containers  
 
-  docker ps -a | grep Exit | cut -d ' ' -f 1 | xargs docker rm
+    docker ps -a | grep Exit | cut -d ' ' -f 1 | xargs docker rm
 
 ###### Reconnect to Docker  
 
-  docker-machine env default  
-  _run the last line as mentioned. e.g:_  
- eval $("C:\Program Files\Docker Toolbox\docker-machine.exe" env default)  
- 
+    docker-machine env default  
+    _run the last line as mentioned. e.g:_  
+    eval $("C:\Program Files\Docker Toolbox\docker-machine.exe" env default)  
  
 ##### List ip-address
 
-  docker-machine ls
+    docker-machine ls
 
 ###### Running commands on a container
   
-  docker exec -it CONTAINER_NAME bash -l
-  
+    docker exec -it CONTAINER_NAME bash -l  
   
 ## Using Docker Compose
 
 ###### Using compose to create all containers
 
-  docker-compose up
+    docker-compose up
 
 ###### Using compose to stop all containers
 
-  docker-compose stop
+    docker-compose stop
   
 ###### Using compose restart all exited containers
 
-  docker-compose start
+    docker-compose start
   
 ###### Checking status of composed containers
 
-  docker-compose ps
+    docker-compose ps
   
 ###### List images as used by compose
 
-  docker-compose images
+    docker-compose images
 
 ###### Get the ip-address and checking the port of a composed service
 
-  docker exec -it CONTAINER_NAME bash
-  ping SERVICE_NAME
-  curl -s SERVICE_NAME:PORT >/dev/null && echo Success. || echo Fail.
+    docker exec -it _CONTAINER_NAME_ bash
+    ping _SERVICE_
+    curl -s _SERVICE_:_PORT_ >/dev/null && echo Success. || echo Fail.
