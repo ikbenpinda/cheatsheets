@@ -1,4 +1,4 @@
-#Cheatsheets // git
+# Cheatsheets // git
 
 ### Preparing a list of changes:
 
@@ -32,7 +32,7 @@
 
     git log --stat --all --graph --oneline --decorate
    
-### Stashing changes / Temporarily ssving/loading work
+### Stashing changes / Temporarily saving/loading work
 
 ###### To save uncommitted work... 
 
