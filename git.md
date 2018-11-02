@@ -1,5 +1,7 @@
 #Cheatsheets // git
 
+### Preparing a list of changes:
+
 ###### Unstage file / Keep changes but don't include them for the next commit.
 
     git reset HEAD *[/filename]
@@ -16,10 +18,22 @@
 
     git commit -m "[message]"
   
-###### Check what others did without pulling:
+### Checking made changes
 
-    git log --all --stat
+###### Check commits across all your local branches:
+
+    git log --all
     
+###### Check commits and their respective file changes:
+
+    git log --stat
+    
+###### Extended version of the log(filechanges, across local branches, timeline of commits, single line messages, :
+
+    git log --stat --all --graph --oneline --decorate
+   
+### Stashing changes / Temporarily ssving/loading work
+
 ###### To save uncommitted work... 
 
     git stash
@@ -27,23 +41,37 @@
 ###### and go back to it later:
     
     git stash pop
-    
+
+###### To check your stash:
+
+    git stash list
+
 ###### or realize you fucked up and want to forget about it:
 
     git stash drop
 
-###### When working on the _same_ branch, but don't want to shit things up with merge commits (and keep uncommitted work):
+###### When working on the _same_ branch, with _no_ made commits, and want to update the project without committing:
 
     git stash
     git pull --rebase
     git stash pop
+    
+### Advanced git-fu
 
 ###### After committed work you want to save, but can't pull-rebase because of overwritten files(this will kill uncommitted changes):  
 
-    git add .
-    git stash  
-    git stash drop  
-    git pull --rebase
+    Option 1(does not take folders above current):
+        git checkout -- .
+        
+    Option 2(Make sure to be aware of the difference with --soft!):
+        git reset --hard
+        
+    Option 3(modifies index?):
+
+        git add .
+        git stash  
+        git stash drop  
+        git pull --rebase
 
 ###### When you just want to fuck shit up:
   
@@ -53,6 +81,11 @@
   
     git add -f [file]
     
+##### Ignore files that happen to be still included after adding them to your .gitignore:
+
+    git rm -r --cached .
+    git add .
+
 ###### Add all updated/modified files:
   
     git add -u
@@ -68,8 +101,3 @@
 ##### When you already added files to a remote repository but forgot to link your existing local one:  
 
     git merge origin master --allow-unrelated-histories
-
-##### Ignore files after adding them to your .gitignore.
-
-    git rm -r --cached .
-    git add .
