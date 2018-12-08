@@ -12,5 +12,6 @@
 
 ##### Grant all privileges on a user
 
-    GRANT ALL ON tablename.* TO 'username'@'%'
-    GRANT ALL ON tablename.* TO 'username'@'localhost'
+    GRANT ALL ON tablename.* TO 'username'@'%';
+    GRANT ALL ON tablename.* TO 'username'@'localhost';
+    FLUSH PRIVILEGES;
