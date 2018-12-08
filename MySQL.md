@@ -9,3 +9,8 @@
 ##### Overview of all users
 
     select host, user, authentication_string from mysql.users;
+
+##### Grant all privileges on a user
+
+    GRANT ALL ON tablename.* TO 'username'@'%'
+    GRANT ALL ON tablename.* TO 'username'@'localhost'
