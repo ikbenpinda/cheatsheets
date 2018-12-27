@@ -6,6 +6,10 @@
 
     Control + Shift + Power
     
+###### on newer versions it's:
+    
+    Control + Command + Q 
+    
 ##### Switching workspaces / desktops
 
     Control + Left/Right
