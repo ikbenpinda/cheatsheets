@@ -1,7 +1,12 @@
 ##### Editing or entering a path in Finder
 
     Command + Shift + G
-    
+   
+##### Displaying hidden files in Finder
+
+     Command + Shift + .
+     
+     
 ##### Locking the screen
 
     Control + Shift + Power
