@@ -26,3 +26,7 @@
 ##### Spotlight / Search Everywhere
 
     Command + Space
+
+##### Navigating the Menu Bar (equivalent to ALT in Windows)
+
+    Control + Fn + F2
