@@ -1,6 +1,6 @@
-###Cheatsheets // Jetbrains IDEs
+### Cheatsheets // Jetbrains IDEs
 
-####Hotkeys for default keymap.
+#### Hotkeys for default keymap.
 
 ###### Surround with:
 
