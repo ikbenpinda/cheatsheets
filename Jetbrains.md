@@ -2,6 +2,11 @@
 
 #### Hotkeys for default keymap.
 
+###### Reopen closed tab:
+
+    CTRL+E
+    
+
 ###### Surround with:
 
     CTRL+ALT+T
