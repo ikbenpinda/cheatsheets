@@ -101,3 +101,7 @@
 ##### When you already added files to a remote repository but forgot to link your existing local one:  
 
     git merge origin master --allow-unrelated-histories
+    
+##### When you need to adjust the timestamp on your commits so no one sees you're just slacking all day until 2AM:
+
+    git commit --date YYYY-MM-DDTHH:mm:ss
