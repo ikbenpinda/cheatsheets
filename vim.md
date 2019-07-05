@@ -23,11 +23,19 @@ Any other command not starting like that can be entered the same way, but you'll
 ## Navigating text
 
 ### Enable line numbers
+
 ```:set nu```
 
+### Enable syntax highlighting
+
+```syntax on```
+
 ### Jump to line
+
 ```:334 # Or any other line really.```
+
 ### Jump to column
+
 ```12, | # This does not require a colon.```
 
 ### Navigating words
@@ -37,32 +45,41 @@ Reminder: it's ```hjkl```, not ```jkl;```
 You might just want to stick to ```e``` and ```b``` first.
 
 _Hold shift during these to switch between words and partial words(e.g. first part of an hyphenated word)_
+
 Start of word: 
+
 ```b```
+
 End of word: 
+
 ```e```
+
 Start of next word: 
+
 ```w```
 
 Next matching brace:
+
 ```%```
 
 ### Editing
 
-Insert / normal people mode
+Insert / normal people mode:  
 ```i```
-Command / "ok so how do i exit insert mode" mode
+
+Command / "ok so how do i exit insert mode" mode  
 ```esc```
 
-### deleting entire line
-```
-esc, dd
-```
+### deleting entire line  
+
+```esc, dd```
+
 ### delete a word
 
-the entire word
+the entire word:  
 ```daW```
-until first hyphen
+
+until first hyphen:  
 ```daw```
 
 
