@@ -8,7 +8,8 @@
 ```
 You're welcome.
 
-Edit text by entering insert mode(press i), exit back out(press esc) and save using ```:w!``` and quit using ```:q``` 
+Edit text by entering insert mode(press ```i```). 
+Exit back out(press ```esc```) and save using ```:w!``` and quit using ```:q``` .
 
 ## Navigating text
 
@@ -21,6 +22,8 @@ Edit text by entering insert mode(press i), exit back out(press esc) and save us
 ### Navigating words
 
 Reminder: it's ```hjkl```, not ```jkl;```
+
+You might just want to stick to ```e``` and ```b``` first.
 
 _Hold shift during these to switch between words and partial words(e.g. first part of an hyphenated word)_
 Start of word: 
