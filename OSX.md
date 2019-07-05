@@ -26,6 +26,10 @@
 ##### Spotlight / Search Everywhere
 
     Command + Space
+   
+From the command line:
+
+    mdfind    
 
 ##### Navigating the Menu Bar (equivalent to ALT in Windows)
 
