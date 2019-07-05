@@ -9,7 +9,16 @@
 You're welcome.
 
 Edit text by entering insert mode(press ```i```). 
-Exit back out(press ```esc```) and save using ```:w!``` and quit using ```:q``` .
+Exit back out(press ```esc```) and save by typing ```:w, enter``` and quit using ```:q, enter``` .
+
+###### About the notation here.
+
+To execute commands, you need to be in command mode. This usually just means hitting escape. 
+You'll know when suddenly the h, j, k, l keys will start acting like the arrow keys. 
+
+Any command starting with ```:``` can be executed by hitting ```escape, :```.
+(This is because some commands are legacy from on old system called Ex.)
+Any other command not starting like that can be entered the same way, but you'll not see what you're typing(the bottom line window won't show). This is normal.
 
 ## Navigating text
 
@@ -18,6 +27,8 @@ Exit back out(press ```esc```) and save using ```:w!``` and quit using ```:q``` 
 
 ### Jump to line
 ```:334 # Or any other line really.```
+### Jump to column
+```12, | # This does not require a colon.```
 
 ### Navigating words
 
