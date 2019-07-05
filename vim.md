@@ -1,45 +1,55 @@
 ### Cheatsheets // vim
 
-For flexing purposes only.
+[FYI/NTS: Jetbrains plugin](https://plugins.jetbrains.com/plugin/164-ideavim)
 
-# Exiting vim
-
+# Exiting vim / help i did a commit
+```
 :wq
-
+```
 You're welcome.
 
-### deleting entire line
-
-esc, dd
-
-### delete a word
-
-the entire word
-
-daW
-
-until first hyphen
-
-daw
+Edit text by entering insert mode(press i), exit back out(press esc) and save using ```:w!``` and quit using ```:q``` 
 
 ## Navigating text
 
 ### Enable line numbers
-
-:set nu!
+```:set nu```
 
 ### Jump to line
-
-:SOME_LINE_NUMBER_LIKE_455
+```:334 # Or any other line really.```
 
 ### Navigating words
 
-Rminder: it's ```hjkl```, not ```jkl;```
+Reminder: it's ```hjkl```, not ```jkl;```
 
+_Hold shift during these to switch between words and partial words(e.g. first part of an hyphenated word)_
+Start of word: 
+```b```
+End of word: 
+```e```
+Start of next word: 
+```w```
 
+Next matching brace:
+```%```
 
+### Editing
 
+Insert / normal people mode
+```i```
+Command / "ok so how do i exit insert mode" mode
+```esc```
 
+### deleting entire line
+```
+esc, dd
+```
+### delete a word
+
+the entire word
+```daW```
+until first hyphen
+```daw```
 
 
 
