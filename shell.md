@@ -15,6 +15,8 @@
     which [whatever]  
     
     whereis [whatever]  
+    
+    mdfind [whatever]
 
 #### Miscellaneous
 
