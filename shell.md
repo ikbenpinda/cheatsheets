@@ -35,3 +35,29 @@
 ##### Autocomplete paths
 
     tab, tab
+    
+### basic stuff
+
+###### Moving stuff from one place to another
+
+###### Chaining commands and outputs(stdout):
+```sh
+| # this is a pipe
+> # this is a redirect
+```
+
+###### Moving stuff more conventionally:
+```sh
+cp SOURCE TARGET # you can't chain to cp though.
+mv SOURCE TARGET # moves (or renames!)
+```
+
+###### Search for stuff
+
+WHATEVER | grep KEYWORD OR PHRASE
+```sh
+# e.g:
+ls -a | grep .md # list all markdown files in a folder.
+```
+
+
