@@ -183,6 +183,8 @@ the entire word:
 until first hyphen:  
 ```daw # todo - meaning?```
 
+### replace under cursor
 
+```r```
 
 
