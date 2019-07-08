@@ -171,6 +171,10 @@ Delete
 
 ```d```
 
+### Delete single character at cursor
+
+```x```
+
 ### deleting entire line  
 
 ```esc, dd # Exit back to command mode, delete-delete(twice to delete line instead of word)```
@@ -186,5 +190,4 @@ until first hyphen:
 ### replace under cursor
 
 ```r```
-
 
