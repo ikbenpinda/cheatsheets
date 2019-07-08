@@ -28,6 +28,26 @@ Any other command not starting like that can be entered the same way, but you'll
 
 ## Navigating
 
+Where most editors just use lines or words, vim has a some additional definitions to use.
+It can be a bit confusing at first which to use, so here's a short summary.
+
+*Definitions*  
+Given the example 
+```java
+package example;
+
+class Example{
+    public static void main(String[] args){
+         System.out.println("Hello world!");
+    }
+}
+```
+- Line: literally a line of text on your screen(as in, by line number), non-wrapped; ```System.out.println("Hello world!");```
+- Sentence: "A line of text until a '.', '!' or '?' followed by either the end of a line, or by a space or tab." - the manual.
+- Paragraph: Everything between two newlines; ```package example;``` and everything from ```class Example``` and onwards.
+- word: a word in the natural sense; ```"Hello"```.
+- WORD: a series of characters, including special characters between whitespace; ```"System.out.println(\"Hello)"```
+
 ### Enable line numbers
 
 ```:set nu```
@@ -44,6 +64,15 @@ If the highlighting breaks, try :sy sync fromstart
 ### Jump to column
 
 ```12, | # This does not require a colon.```
+
+### Navigating lines
+
+```(``` / ```)``` (parentheses)Move up/down a sentence.  
+```{``` / ```}``` (curly braces)Move up/down a paragraph.  
+
+```H``` To move to the upper part of your screen.  
+```M``` To move to the middle part of your screen.  
+```L``` To move to the lower part of your screen.  
 
 ### Navigating words
 
