@@ -70,6 +70,9 @@ If the highlighting breaks, try :sy sync fromstart
 ```(``` / ```)``` (parentheses)Move up/down a sentence.  
 ```{``` / ```}``` (curly braces)Move up/down a paragraph.  
 
+```CTRL+B``` / ```CTRL+F``` Page up/down.  
+```CTRL+D``` / ```CTRL+U``` Half a page up/down.
+
 ```H``` To move to the upper part of your screen.  
 ```M``` To move to the middle part of your screen.  
 ```L``` To move to the lower part of your screen.  
