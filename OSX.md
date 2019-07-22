@@ -1,3 +1,8 @@
+##### Go 'up' a folder in Finder
+
+    Command + Up
+   
+
 ##### Editing or entering a path in Finder
 
     Command + Shift + G
