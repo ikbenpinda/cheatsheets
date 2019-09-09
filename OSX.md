@@ -39,3 +39,7 @@ From the command line:
 ##### Navigating the Menu Bar (equivalent to ALT in Windows)
 
     Control + Fn + F2
+
+##### Smaller increments/decrements of the volume:
+
+    Alt + Shift + F12
