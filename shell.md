@@ -65,6 +65,6 @@ ls -a | grep .md # list all markdown files in a folder.
 ###### Disabling case sensitivity for bash using ~/.bashrc:
 
 ```sh
-bind 'set completion-ignore-case on' in ~/.bashrc
+bind 'set completion-ignore-case on'
 ```
 
