@@ -81,6 +81,13 @@
   
     git add -f [file]
     
+##### Nuke untracked files from orbit
+    
+    ff = force, files
+    d = directories
+    x = ignored files
+    git clean --ffdx
+    
 ##### Ignore files that happen to be still included after adding them to your .gitignore:
 
     git rm -r --cached .
