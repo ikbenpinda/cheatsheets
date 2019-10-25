@@ -1,6 +1,10 @@
+CONFIGURATION
+
 not having to use ctrl b as the main prefix
 
 // todo
+
+BASICS
 
 new pane
 
@@ -32,6 +36,11 @@ closing window
 
 // todo
 
+scrolling
+
+ctrl b, [, arrow keys
+
 session management
 
 // todo
+
