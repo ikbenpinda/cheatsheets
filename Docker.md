@@ -54,6 +54,9 @@
 ##### remove all exited containers  
 
     docker ps -a | grep Exit | cut -d ' ' -f 1 | xargs docker rm
+    
+    alternatively,
+    docker [image/container/volume/network] prune (-a)
 
 ###### Reconnect to Docker  
 
