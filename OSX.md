@@ -2,7 +2,10 @@
 
     Command + Up
    
+##### Peek at desktop
 
+    Fn + F11
+    
 ##### Editing or entering a path in Finder
 
     Command + Shift + G
