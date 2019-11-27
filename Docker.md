@@ -7,6 +7,10 @@
 - Exit container
 - Continue by starting the exited container
 
+Pro tip: Add this to your aliases(.bashrc,.zshrc):
+    alias dps="echo -e 'Currently up and running:\n' && docker ps && echo -e '\n'"
+    alias dpsa="echo -e 'Currently up and running:\n' && docker ps && echo -e '\nAvailable containers:\n' && docker ps -a && echo -e'\n'"
+
 ## Basics
 
 ###### Enable docker [Linux]
