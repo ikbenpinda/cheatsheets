@@ -41,3 +41,14 @@ This focuses on using the command line, mostly ADB for device bridging and the .
 
        # Pidcat, filtering for specific tag, e.g. "flutter":
        pidcat com.company.example.app -t flutter
+       
+       # Pidcat over wi-fi:
+       pidcat com.company.example.app -s 192.168.xxx.xx
+       
+### Writing pidcat/logcat output to a file while displaying it in real-time:
+       
+       # Logcat:
+       adb logadb logcat --pid=`adb shell pidof -s com.company.example.app` | tee output.log
+       
+       # Pidcat:
+       pidcat com.company.example.app | tee putput.log
