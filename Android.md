@@ -52,3 +52,19 @@ This focuses on using the command line, mostly ADB for device bridging and the .
        
        # Pidcat:
        pidcat com.company.example.app | tee putput.log
+
+### Screencasting from android device to desktop:
+
+  _See https://github.com/Genymobile/scrcpy_
+  
+  Installation on MacOS:  
+  
+      brew install scrcopy
+  
+  To start casting:
+  
+      scropy -s DEVICE_ID --max-size 960 --bit-rate 2M --window-title MyApp --record walkthrough.mp4 --max-fps 30
+      
+  Rotate device:
+  
+     CTRL + R
