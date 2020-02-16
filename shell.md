@@ -62,6 +62,12 @@ WHATEVER | grep KEYWORD OR PHRASE
 ls -a | grep .md # list all markdown files in a folder.
 ```
 
+###### Comparing stuff
+
+```
+diff -s file1 file2
+```
+
 ###### Disabling case sensitivity for bash using ~/.bashrc:
 
 ```sh
