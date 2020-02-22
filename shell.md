@@ -64,7 +64,7 @@ ls -a | grep .md # list all markdown files in a folder.
 
 ###### Comparing stuff
 
-```
+```sh
 diff -s file1 file2
 
 # Confirmation when same + ignoring whitespace + comparing recursively / entire folders + side-by-side view:
