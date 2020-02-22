@@ -66,6 +66,9 @@ ls -a | grep .md # list all markdown files in a folder.
 
 ```
 diff -s file1 file2
+
+# Confirmation when same + ignoring whitespace + comparing recursively / entire folders + side-by-side view:
+diff -swry file1 file2
 ```
 
 ###### Disabling case sensitivity for bash using ~/.bashrc:
