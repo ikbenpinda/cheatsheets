@@ -112,3 +112,7 @@
 ##### When you need to adjust the timestamp on your commits so no one sees you're just slacking all day until 2AM:
 
     git commit --date YYYY-MM-DDTHH:mm:ss
+
+##### When you need to find the interns fuckup from 2 years ago:
+
+    git log --graph --all --decorate --stat -- YOUR_FILENAME_HERE
