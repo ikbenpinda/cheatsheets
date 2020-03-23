@@ -68,3 +68,13 @@ This focuses on using the command line, mostly ADB for device bridging and the .
   Rotate device:
   
      CTRL + R
+
+### Copying over exact copies of .apk files from one device to another
+
+e.g. old school runescape
+
+       adb devices # Use this to get the device IDs.
+       adb -s DEVICE_ID_1 shell pm list packages | grep PUBLISHER_OR_APP_NAME # e.g. Jagex
+       adb -s DEVICE_ID_1 shell pm path FULL_PACKAGE_NAME # Full package name as returned from above
+       adb -s DEVICE_ID_1 pull FULL_PATH 
+       adb -s DEVICE_ID_2 install ./base.apk
