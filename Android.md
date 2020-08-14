@@ -42,6 +42,10 @@ This focuses on using the command line, mostly ADB for device bridging and the .
        # Pidcat, filtering for specific tag, e.g. "flutter":
        pidcat com.company.example.app -t flutter
        
+       # Pidcat, filtering by log-level, e.g. INFO or higher:  
+       pidcat com.company.example.app -l I
+       pidcat com.company.example.app --min-level I
+       
        # Pidcat over wi-fi:
        pidcat com.company.example.app -s 192.168.xxx.xx
        
