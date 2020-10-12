@@ -73,7 +73,7 @@ This focuses on using the command line, mostly ADB for device bridging and the .
   
      CTRL + R
 
-### Listing installed apps by packge identifier:
+### Listing installed apps by package identifier:
 
        adb -s DEVICE_ID shell "pm list packages"
 
