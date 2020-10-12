@@ -73,6 +73,10 @@ This focuses on using the command line, mostly ADB for device bridging and the .
   
      CTRL + R
 
+### Listing installed apps by packge identifier:
+
+       adb -s DEVICE_ID shell "pm list packages"
+
 ### Copying over exact copies of .apk files from one device to another
 
 e.g. old school runescape
