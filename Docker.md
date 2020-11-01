@@ -72,6 +72,10 @@ Pro tip: Add this to your aliases(.bashrc,.zshrc):
     alternatively,
     docker [image/container/volume/network] prune (-a)
 
+##### kill and remove all containers
+
+    docker stop $(docker ps -aq) && docker rm $(docker ps -aq)
+
 ###### Reconnect to Docker  
 
     docker-machine env default  
