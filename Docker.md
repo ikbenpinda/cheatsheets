@@ -65,7 +65,7 @@ Pro tip: Add this to your aliases(.bashrc,.zshrc):
 
 ###### Check container logs  
   
-    docker log _CONTAINER_ID_
+    docker logs _CONTAINER_ID_
     
 ## Shortcuts and troubleshooting
 
