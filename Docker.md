@@ -63,6 +63,10 @@ Pro tip: Add this to your aliases(.bashrc,.zshrc):
   
     docker rm _CONTAINER_ID_
 
+###### Check container logs  
+  
+    docker log _CONTAINER_ID_
+    
 ## Shortcuts and troubleshooting
 
 ##### remove all exited containers  
