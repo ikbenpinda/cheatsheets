@@ -11,11 +11,16 @@ Pro tip: Add this to your aliases(.bashrc,.zshrc):
 
     alias dps="echo -e 'Currently up and running:\n' && docker ps && echo -e '\n'"
     alias dpsa="echo -e 'Currently up and running:\n' && docker ps && echo -e '\nAvailable containers:\n' && docker ps -a && echo -e'\n'"
+    alias dcup="docker-compose up"
+    alias dcdown="docker-compose down"
     alias dstart="docker start"
     alias dstop="docker stop"
     alias dimages="docker images"
     alias dcontainers="docker ps -a"
     alias dattach="docker attach"
+    alias dlogs="docker logs"
+    alias dkillall="docker stop $(docker ps -aq) && docker rm $(docker ps -aq)" # containers only
+    alias dnuke="docker stop $(docker ps -aq) && docker rm $(docker ps -aq) && docker rmi -f $(docker -aq)" # images and containers
     alias getip="ifconfig | grep inet"
     dexec(){
         docker exec -it $1 /bin/bash
@@ -50,7 +55,7 @@ Pro tip: Add this to your aliases(.bashrc,.zshrc):
 ###### run container from image  
   
     docker run _IMAGE_
-  
+
 ###### stop container  
   
     docker stop _CONTAINER_ID_
@@ -100,6 +105,10 @@ Pro tip: Add this to your aliases(.bashrc,.zshrc):
 
     docker-compose up
 
+###### Using compose to stop and remove all containers
+
+    docker-compose down
+    
 ###### Using compose to stop all containers
 
     docker-compose stop
@@ -115,6 +124,10 @@ Pro tip: Add this to your aliases(.bashrc,.zshrc):
 ###### List images as used by compose
 
     docker-compose images
+
+###### build fresh image regardless of cache
+
+    docker build -f "path/to/dockerfile.local" --pull --no-cache
 
 ###### Get the ip-address and checking the port of a composed service
 
