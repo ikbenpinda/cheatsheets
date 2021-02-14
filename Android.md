@@ -67,7 +67,7 @@ This focuses on using the command line, mostly ADB for device bridging and the .
   
   To start casting:
   
-      scropy -s DEVICE_ID --max-size 960 --bit-rate 2M --window-title MyApp --record walkthrough.mp4 --max-fps 30
+      scrcpy -s DEVICE_ID --max-size 960 --bit-rate 2M --window-title MyApp --record walkthrough.mp4 --max-fps 30
       
   Rotate device:
   
