@@ -63,7 +63,7 @@ This focuses on using the command line, mostly ADB for device bridging and the .
   
   Installation on MacOS:  
   
-      brew install scrcopy
+      brew install scrcpy
   
   To start casting:
   
