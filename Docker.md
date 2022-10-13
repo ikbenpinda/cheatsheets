@@ -129,6 +129,10 @@ Pro tip: Add this to your aliases(.bashrc,.zshrc):
 
     docker build -f "path/to/dockerfile.local" --pull --no-cache
 
+###### remove all intermediate images
+
+    docker rmi $(docker images -f "dangling=true" -q)
+
 ###### Get the ip-address and checking the port of a composed service
 
     docker exec -it _CONTAINER_NAME_ bash
